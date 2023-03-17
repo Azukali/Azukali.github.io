@@ -1,3 +1,9 @@
+/**
+ * @author Alex Widua
+ * @date 2023-03-01
+ * @license MIT
+ */
+
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import CursorSVG from "./misc/cursor";
@@ -15,6 +21,16 @@ function App() {
           Button
         </Button>
       </div>
+      <footer>
+        Shiny Button &bull;{" "}
+        <a
+          href="https://github.com/alexwidua/prototypes"
+          target="_blank"
+          rel="noopener"
+        >
+          Github
+        </a>
+      </footer>
     </>
   );
 }
